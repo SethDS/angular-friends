@@ -2,7 +2,7 @@
 angular.module("friendapp").controller('FriendController', function($scope){
 
     $scope.friendFilter = {name: "", location: ""};
-
+    
 
 
     $scope.friends = [
